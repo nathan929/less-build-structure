@@ -1,0 +1,48 @@
+{
+  "name": "evernote-less",
+  "version": "1.0.0",
+  "description": "Evernote Less build structure",
+  "main": "bin/evernoteless",
+  "preferGlobal": true,
+  "bin": {
+    "evernoteless": "./bin/evernoteless",
+    "evernoteless-page": "./bin/evernoteless-page",
+    "evernoteless-module": "./bin/evernoteless-module"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evernote/less-build-structure.git"
+  },
+  "keywords": [
+    "less",
+    "css",
+    "structure",
+    "template",
+    "smacss",
+    "evernote",
+    "web",
+    "front-end"
+  ],
+  "author": "Ryan Burgess <rburgess@evernote.com> (http://everernote.com/)",
+  "bugs": {
+    "url": "https://github.com/evernote/less-build-structure/issues"
+  },
+  "homepage": "https://github.com/evernote/less-build-structure",
+  "dependencies": {
+    "fs-extra": "^0.16.3",
+    "get-date": "^1.0.0",
+    "mkdirp": "^0.5.0",
+    "path": "^0.11.14"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "licenses": {
+    "type": "MIT"
+  }
+}
