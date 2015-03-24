@@ -18,13 +18,6 @@ mkdir(dir + '/less', function(){
   write(dir + '/less/layout/_grid.less', '');
 });
 
-// copy the mixins directory and create a new mixins directory
-fs.copy(path.join(__dirname, '../less/mixins'), dir + '/less/base/mixins', function(err) {
-  if (err) {
-    return console.log(err);
-  }
-});
-
 // create page specific
 fs.readFile(path.join(__dirname, '../Page.less'), 'utf8', function (err,data) {
   if (err) {

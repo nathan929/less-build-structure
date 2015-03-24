@@ -75,6 +75,7 @@ LESS Directories
   - Views styles
 
 ## Release History
+* 1.0.1: Remove generated mixins directory.
 * 1.0.0: Initial release.
 
 ## Contributing

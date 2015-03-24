@@ -1,6 +1,6 @@
 {
   "name": "evernote-less",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evernote Less build structure",
   "main": "bin/evernoteless",
   "preferGlobal": true,
